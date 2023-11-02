@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color for the whole page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* Style the header section */
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect on header */
+.header:hover {
+    background-color: #555;
+}
+
+/* Style the title */
+#title {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+/* Style the image container (square shape) */
+#img-div {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+/* Hover effect on image container */
+#img-div:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+#image {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the timeline section */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the blockquote and author */
+q {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+pre {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
